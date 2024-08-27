@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/go-chi/chi/middleware"
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 type Template struct {
